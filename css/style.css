@@ -4,20 +4,123 @@ body{
   font-size: 12px;
 }
 
-.header-section1 {
+.logo {
     background-color: #34558c;
     height: 80px;
     border-top: 4px solid #3e66a3;
 }
 
-.header-section2 {
+.social-banner {
     background: transparent url(../images/header-section2-bg.png) left top repeat-x;
     height: 130px;
 }
 
-.header-section3 {
+.social-banner .img-banner {
+  padding-top: 20px;
+}
+
+.img-logo {
+  max-height: 128px;
+  float: left;
+}
+
+.img-banner {
+  max-width: 712px;
+  margin: auto;
+}
+
+.header {
     background: transparent url(../images/header-section3-bg1.png) left top repeat-x;
     height: 50px;
+}
+
+.area-interesse {
+    width: 178px;
+    margin-right: 15px;
+    float: left;
+    margin-top: 10px;
+    height: 25px;
+    font-size: 14px;
+    color: #FFFFFF;
+    background-color: #4d76bd;
+    font-weight: bold;
+    border-color: #32548d;
+    text-transform: uppercase;
+    margin-left: 100px;
+}
+
+.orgaos-municipais {
+    width: 91px;
+    margin-right: 15px;
+    float: left;
+    margin-top: 10px;
+    height: 25px;
+    font-size: 14px;
+    color: #FFFFFF;
+    background-color: #4d76bd;
+    font-weight: bold;
+    border-color: #32548d;
+}
+
+.float-right {
+  float: right;
+  margin-right: 155px;
+}
+
+.white-menu {
+  list-style: none;
+    text-transform: uppercase;
+    float: left;
+    padding: 0;
+}
+
+.white-menu li {
+    height: 42px;
+    line-height: 42px;
+    margin-right: -2px;
+    margin-top: 0;
+}
+
+.white-menu a {
+  font-size: 14px;
+  font-weight: 900;
+  display: initial !important;
+}
+
+.white-menu li a:visited {
+    text-decoration: none;
+    color: #FFFFFF !important;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.white-menu li a:link {
+    color: #FFFFFF !important;
+    text-decoration: none;
+}
+
+.white-menu li a:hover{
+    background-color: transparent;
+}
+
+.white-menu .color1 {
+    border-top: 3px solid #6fbeea;
+}
+
+.white-menu .color2 {
+    border-top: 3px solid #fbad18;
+}
+
+.white-menu .color3 {
+    border-top: 3px solid #638f3e;
+}
+
+.white-menu .color4 {
+    border-top: 3px solid #d74b27;
+}
+
+.white-menu .color5 {
+    border-top: 3px solid #000;
 }
 
 .buscar {
@@ -61,20 +164,7 @@ body{
 
 .carousel-inner {
   margin-top: 25px;
-  height: 268px;
-}
-
-.title-services {
-  background: #4c76ba;
-  height: 46px;
-  max-width: 790px;
-}
-
-.title-services h3 {
-  text-align: center;
-  color: white;
-  padding-top: 7px;
-  font-weight: bold;
+  max-height: 268px;
 }
 
 .todas-noticias {
@@ -89,11 +179,25 @@ body{
 
 .servicos-cidadao {
   background: #f8f8f8;
-  height: 560px;
   float: left;
-  /*padding-left: 10px;*/
-  
+  margin-top: 7px;
 }
+
+.title-services {
+  background: #4c76ba;
+  height: 46px;
+  margin-bottom: 17px;
+}
+
+.title-services h3 {
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+
 
 .grid-1, .grid-2 {
     display: inline;
@@ -104,7 +208,6 @@ body{
 
 .grid-1 {
   width: 60px;
-  margin-top: 30px;
 }
 
 .box-servicos-img {
@@ -151,4 +254,13 @@ body{
     height: 18px;
     margin-top: 5px;
     text-transform: lowercase;
+}
+
+.banners {
+  max-width: 220px;
+  margin-top: 7px;
+}
+
+.banners img {
+  margin-bottom: 7px;
 }
