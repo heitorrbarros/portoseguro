@@ -59,13 +59,15 @@ body{
   margin-bottom: 5px;
 }
 
-.carousel {
+.carousel-inner {
   margin-top: 25px;
+  height: 268px;
 }
 
 .title-services {
   background: #4c76ba;
   height: 46px;
+  max-width: 790px;
 }
 
 .title-services h3 {
@@ -89,4 +91,64 @@ body{
   background: #f8f8f8;
   height: 560px;
   float: left;
+  /*padding-left: 10px;*/
+  
+}
+
+.grid-1, .grid-2 {
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.grid-1 {
+  width: 60px;
+  margin-top: 30px;
+}
+
+.box-servicos-img {
+    height: 72px;
+    margin: 10px 0;
+}
+
+.grid-2 {
+  width: 140px;
+}
+
+.box-servicos {
+    height: 79px;
+    margin: 10px 0;
+}
+
+.box-servicos h1 {
+    font-size: 12px;
+    display: inline;
+    margin: 5px 0;
+    color: #575c96;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.box-servicos ul {
+    padding: 0px 0px;
+    margin: 4px 0px 0px 15px;
+}
+
+.box-servicos li {
+    line-height: 135%;
+    color: gray;
+    font-size: 9pt;
+    text-transform: lowercase;
+}
+
+.list-servicos {
+    width: 122px;
+    font-size: 9pt;
+    color: gray;
+    font-weight: bold;
+    height: 18px;
+    margin-top: 5px;
+    text-transform: lowercase;
 }
