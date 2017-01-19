@@ -1,4 +1,6 @@
-<?php get_header(); ?>
+    <?php get_header(); ?>
+  	<?php $home = get_template_directory_uri(); ?>
+
 
     <!-- <div class="container-fluid"> -->
     <div class="row">
@@ -45,19 +47,19 @@
                                 <!-- Wrapper for slides -->
                                 <div class="carousel-inner" role="listbox">
                                     <div class="item active">
-                                        <img src="images/carousel1.jpg" alt="...">
+                                        <img src="<?=$home?>/assets/images/carousel1.jpg" alt="...">
                                         <div class="carousel-caption">
                                             ...
                                         </div>
                                     </div>
                                     <div class="item">
-                                        <img src="images/carousel2.jpg" alt="...">
+                                        <img src="<?=$home?>/assets/images/carousel2.jpg" alt="...">
                                         <div class="carousel-caption">
                                             ...
                                         </div>
                                     </div>
                                     <div class="item">
-                                        <img src="images/carousel3.jpg" alt="...">
+                                        <img src="<?=$home?>/assets/images/carousel3.jpg" alt="...">
                                         <div class="carousel-caption">
                                             ...
                                         </div>
@@ -114,12 +116,4 @@
     </div>
 
 
-    <!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separadados se necessário -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main·js"></script>
-
-</body>
-
-</html>
+<?php get_footer(); ?>
