@@ -11,7 +11,7 @@
                       <div class="borda"></div>
                     </div>
 
-                      <div class="col-md-3">
+                      <div class="col-md-2">
                       <div class="sociallinks">
                         <span>Siga a Prefeitura:</span>
                         <div>
@@ -23,14 +23,16 @@
                       </div>
                     </div>
 
-                      <div class="col-md-5">
+                      <div class="col-md-4">
                       <div class="diario">
                           <h1>DIÁRIO OFICIAL</h1>
                           <p>Informações Institucionais de tudo que acontece na prefeitura.</p>
                           <div class="borda"></div>
-                          <button type="button" name="button">Acesse Já</button><br><br />
-                          <button type="button" name="button">EDIÇÕES ANTERIORES</button>
                       </div>
+                    </div>
+                    <div class="col-md-4 botao">
+                      <button type="button" name="button">Acesse Já</button><br><br />
+                      <button type="button" name="button">EDIÇÕES ANTERIORES</button>
                     </div>
                 </div>
               </div>
@@ -43,7 +45,7 @@
             <div class="col-md-12">
               <div class="copyright">
                 <span>© Prefeitura Municipal de Porto Seguro - 2015</span><br>
-                <span>Endereço...</span>
+                <span>Endereço:</span>
               </div>
             </div>
         </div>

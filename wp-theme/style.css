@@ -18,7 +18,7 @@ a:link, a:visited {
 }
 
 a:hover {
-	color: #000;
+	color: #5B83CB;
 	text-decoration: none;
 }
 
@@ -29,29 +29,47 @@ ul{
   padding-left: 0;
 }
 
+.row {
+  margin: 0;
+}
+
+.col-md-12 {
+  padding: 0;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
 .logo {
     background-color: #34558c;
-    height: 80px;
-    border-top: 4px solid #3e66a3;
+    height: 100px;
 }
 
 .social-banner {
     background: transparent url(assets/images/header-section2-bg.png) left top repeat-x;
-    height: 130px;
+    height: 129px;
 }
 
 .social-banner .img-banner {
   padding-top: 20px;
 }
 
+.social-banner .sociallinks {
+  margin-top: 25px;
+  margin-left: 130px;
+}
+
 .img-logo {
-  max-height: 128px;
+  max-height: 90px;
   float: left;
 }
 
 .img-banner {
   max-width: 712px;
-  margin: auto;
+  max-height: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header {
@@ -85,11 +103,6 @@ ul{
     background-color: #4d76bd;
     font-weight: bold;
     border-color: #32548d;
-}
-
-.float-right {
-  float: right;
-  margin-right: 155px;
 }
 
 .white-menu {
@@ -204,14 +217,12 @@ ul{
 
 .servicos-cidadao {
   background: #f8f8f8;
-  float: left;
   margin-top: 7px;
 }
 
 .title-services {
   background: #4c76ba;
   height: 46px;
-  margin-bottom: 17px;
 }
 
 .title-services h3 {
@@ -222,100 +233,25 @@ ul{
   margin-top: 0;
 }
 
-
-
-.grid-1, .grid-2 {
-    display: inline;
-    float: left;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.grid-1 {
-  width: 60px;
-}
-
-.box-servicos-img {
-    height: 72px;
-    margin: 10px 0;
-}
-
-.grid-2 {
-  width: 140px;
-}
-
-.box-servicos {
-    height: 79px;
-    margin: 10px 0;
-}
-
-.box-servicos h1 {
-    font-size: 12px;
-    display: inline;
-    margin: 5px 0;
-    color: #575c96;
-    font-weight: bold;
-    font-size: 15px;
-    text-transform: uppercase;
-}
-
-.box-servicos ul {
-    padding: 0px 0px;
-    margin: 4px 0px 0px 15px;
-}
-
-.box-servicos li {
-    line-height: 135%;
-    color: gray;
-    font-size: 9pt;
-    text-transform: lowercase;
-}
-
-.list-servicos {
-    width: 122px;
-    font-size: 9pt;
-    color: gray;
-    font-weight: bold;
-    height: 18px;
-    margin-top: 5px;
-    text-transform: lowercase;
-    background-color: #fff;
-}
-
-.box-pai {
+.links {
   margin-top: 10px;
+  background-color: #FCFDFF;
+  height: 100px;
+  padding-top: 23px;
 }
 
-.box-pai h1{
-  margin: 5px 0;
-  color: #575c96;
-  font-weight: bold;
-  font-size: 15px;
+.links span {
+  position: relative;
+  top:-17px;
+  left:5px;
+  font-weight: bolder;
   text-transform: uppercase;
+  font-size: 17px;
 }
 
-.maisprocurados, .vagas {
-  border-top: 3px solid #7a889a;
-}
-
-.maisprocurados li {
-  border-bottom: 1px solid gray;
-  padding-top: 10px;
-  text-transform: lowercase;
-}
-
-.vagas li {
-  border-bottom: 1px solid gray;
-  padding-top: 10px;
-  text-transform: lowercase;
-}
-
-.todasvagas {
-  position: absolute;
-  bottom: -15px;
-  right: 10px;
-  font-family: 'Lato', sans-serif;
-  font-weight: bold;
+.links:hover{
+  color: #FFF;
+  background-color: #0093DD;
 }
 
 .banners {
@@ -329,7 +265,8 @@ ul{
 
 .rodapetop {
   background-color: #4D76BD;
-  height: 118px;
+  height: 160px;
+  padding-top: 30px;
 }
 
 .rodapetop a {
@@ -375,10 +312,7 @@ float: left;
   margin: 3px 0;
 }
 
-.diario button {
-  position: relative;
-  top: -42px;
-  left: 390px;
+.botao button {
   color: #fff;
   background-color: transparent;
   border: 1px solid #fff;
@@ -386,7 +320,9 @@ float: left;
 }
 
 .rodapebot {
-  background-color: #325187
+  background-color: #325187;
+  height: 50px;
+  padding-top: 4px;
 }
 
 .borda {
