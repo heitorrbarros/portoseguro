@@ -24,7 +24,6 @@
 </head>
 
 <body>
-
   <!-- NAVBAR -->
     <nav class="mainNav">
         <div class="container-fluid">
@@ -59,13 +58,14 @@
                           </select>
 
                         <div class="float-right">
-                          <ul class="white-menu nav nav-pills">
-                            <li class="color1"><a href="#">TESTE</a></li>
-                            <li class="color2"><a href="#">TESTE</a></li>
-                            <li class="color3"><a href="#">TESTE</a></li>
-                            <li class="color4"><a href="#">TESTE</a></li>
-                            <li class="color5"><a href="#">TESTE</a></li>
-                          </ul>
+                          <?php
+                            $args = array(
+                              'theme_location' => 'header-menu',
+                              'menu_class' => 'white-menu nav nav-pills',
+                              'container' => 'ul'
+                            );
+                            wp_nav_menu($args);
+                            ?>
                         </div>
                         </div>
                     </nav>
