@@ -10,6 +10,17 @@
     <!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separadados se necessário -->
     <script src="<?= $home ?>/js/bootstrap.min.js"></script>
     <script src="<?= $home ?>/js/main.js"></script>
+
+    <!-- custom scrollbar plugin -->
+    <script src="<?= $home ?>/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script>
+        (function($){
+            $(window).on("load",function(){
+                $(".content").mCustomScrollbar();
+            });
+        })(jQuery);
+    </script>
+
     <?php wp_footer();?>
 </body>
 

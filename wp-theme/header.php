@@ -14,6 +14,9 @@
     <link href="<?= $home ?>/assets/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="<?= $home ?>/style.css">
 
+    <!-- custom scrollbar stylesheet -->
+    <link rel="stylesheet" href="<?= $home ?>/assets/css/jquery.mCustomScrollbar.css">
+
     <!-- HTML5 shim e Respond.js para suporte no IE8 de elementos HTML5 e media queries -->
     <!-- ALERTA: Respond.js não funciona se você visualizar uma página file:// -->
     <!--[if lt IE 9]>
