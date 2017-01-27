@@ -14,6 +14,9 @@
     <link href="<?= $home ?>/assets/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="<?= $home ?>/style.css">
 
+    <!-- custom scrollbar stylesheet -->
+    <link rel="stylesheet" href="<?= $home ?>/assets/css/jquery.mCustomScrollbar.css">
+
     <!-- HTML5 shim e Respond.js para suporte no IE8 de elementos HTML5 e media queries -->
     <!-- ALERTA: Respond.js não funciona se você visualizar uma página file:// -->
     <!--[if lt IE 9]>
@@ -24,52 +27,53 @@
 </head>
 
 <body>
-  <!-- NAVBAR -->
-    <nav class="mainNav">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="logo">
-                        <!-- <a href="#"><img src="images/logo-pmps.png" alt="" /></a> -->
-                    </div>
-                    <div class="social-banner">
-                        <a href="#"><img class="img-responsive img-logo" src="<?= $home ?>/assets/images/logo-pmps.png" alt="" /></a>
-                        <a href="#"><img class="img-responsive img-banner" src="<?= $home ?>/assets/images/mosquito_zero.jpg" alt="" /></a>
-                    </div>
-                    <nav>
-                        <div class="header">
-                            <select class="area-interesse" name="">
-                            <option value="0">Áreas de Interesse</option>
-                            <option value="1">Comunicação</option>
-                            <option value="2">Criança e Adolescente</option>
-                            <option value="3">Cultura</option>
-                            <option value="4">Defesa Civil</option>
-                            <option value="6">Educação</option>
-                            <option value="7">Finanças e Tributos</option>
-                            <option value="8">Gestão Pública</option>
-                            <option value="9">Infraestrutura</option>
-                          </select>
-                          <select class="orgaos-municipais" name="">
-                            <option value="0">ÓRGÃOS</option>
-                          	<option style="background: #34558c; text-decoration:underline;">SECRETARIAS</option>
-                          	<option value="1">&nbsp;&nbsp;&nbsp;&nbsp;SECOM - Comunicação</option>
-                          	<option value="2">&nbsp;&nbsp;&nbsp;&nbsp;CASA CIVIL</option>
-                          	<option value="30">&nbsp;&nbsp;&nbsp;&nbsp;DEFESA CIVIL</option>
-                          </select>
 
-                        <div class="float-right">
-                          <?php
-                            $args = array(
-                              'theme_location' => 'header-menu',
-                              'menu_class' => 'white-menu nav nav-pills',
-                              'container' => 'ul'
-                            );
-                            wp_nav_menu($args);
-                            ?>
-                        </div>
-                        </div>
-                    </nav>
-                </div>
+        <!-- LOGO E PESQUISA -->
+    <header>
+        <div class="container">
+            <div class="col-md-6 logo">
+                <a href="#">
+                  <img src="<?=$home?>/assets/images/logo_pme.png" class="img-responsive" alt="Logo Eunápolis" />
+                </a>
             </div>
-        </div>
-    </nav>
+            <div class="col-md-6 pesquisar">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Digite sua busca">
+                <span class="input-group-btn">
+                  <button class="btn btn-default" type="button">Pesquisar</button>
+                </span>
+              </div>
+            </div>
+          </div>
+    </header>
+
+      <!-- MENU -->
+
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <!-- <li class="active"><a href="#">DIÁRIO OFICIAL <span class="sr-only">(current)</span></a></li> -->
+              <li><a href="#">DIÁRIO OFICIAL</a></li>
+              <li><a href="#">CIDADÃO</a></li>
+              <li><a href="#">EMPRESA</a></li>
+              <li><a href="#">SERVIDOR</a></li>
+              <li><a href="#">NOTÍCIAS</a></li>
+              <li><a href="#">TRANSPARÊNCIA</a></li>
+              <li><a href="#">SECRETARIAS</a></li>
+              <li><a href="#">OUVIDORIA</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container -->
+      </nav>

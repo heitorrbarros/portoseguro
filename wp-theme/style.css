@@ -1,274 +1,261 @@
 /*
 Theme Name: Porto Seguro
-Theme URI: 
+Theme URI:
 Author: Rafael e Heitor
-Author URI: 
+Author URI:
 Description: Este é o tema do portal de notícias
 Version: 1.0
 */
+
 body{
   margin: 0;
-  font-family: Arial;
-  font-size: 12px;
+}
+
+.row {
+  margin: 0;
+}
+
+.col-md-12 {
+  padding: 0;
+}
+
+.container-fluid {
+  padding: 0;
 }
 
 .logo {
-    background-color: #34558c;
-    height: 80px;
-    border-top: 4px solid #3e66a3;
+  max-width: 300px;
 }
 
-.social-banner {
-    background: transparent url(assets/images/header-section2-bg.png) left top repeat-x;
-    height: 130px;
-}
-
-.social-banner .img-banner {
-  padding-top: 20px;
-}
-
-.img-logo {
-  max-height: 128px;
-  float: left;
-}
-
-.img-banner {
-  max-width: 712px;
-  margin: auto;
-}
-
-.header {
-    background: transparent url(assets/images/header-section3-bg1.png) left top repeat-x;
-    height: 50px;
-}
-
-.area-interesse {
-    width: 178px;
-    margin-right: 15px;
-    float: left;
-    margin-top: 10px;
-    height: 25px;
-    font-size: 14px;
-    color: #FFFFFF;
-    background-color: #4d76bd;
-    font-weight: bold;
-    border-color: #32548d;
-    text-transform: uppercase;
-    margin-left: 100px;
-}
-
-.orgaos-municipais {
-    width: 91px;
-    margin-right: 15px;
-    float: left;
-    margin-top: 10px;
-    height: 25px;
-    font-size: 14px;
-    color: #FFFFFF;
-    background-color: #4d76bd;
-    font-weight: bold;
-    border-color: #32548d;
-}
-
-.float-right {
+.pesquisar {
   float: right;
-  margin-right: 155px;
+  max-width: 360px;
+  margin-top: 38px;
 }
 
-.white-menu {
-  list-style: none;
-    text-transform: uppercase;
-    float: left;
+.input-group .form-control:first-child {
+  background-color: #ecefef;
+  border-color: #5cd9e8;
+}
+
+.input-group-btn:last-child>.btn {
+  background-color: #ecefef;
+  color: #194e9f;
+  border-color: #5cd9e8;
+}
+
+.navbar-default {
+  background-color: #ecefef;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #194e9f;
+  font-size: 15px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #194e9f;
+  background-color: transparent;
+}
+
+.noticias-container img {
+  border-radius: 10px;
+}
+
+.noticias-container figcaption {
+  position: absolute;;
+  bottom: 10px;
+  left: 15px;
+  color: #fff;
+}
+
+.noticias-container figcaption>p {
+  border-left: solid 4px #ffea00;
+  padding-left: 5px;
+}
+
+.noticias-left {
+  margin-bottom: 20px;
+}
+
+.noticias-left img{
+  height: 440px;
+}
+
+.noticias-left figcaption {
+  margin-left: 15px;
+}
+
+.noticias-mini {
+padding-left: 0;
+margin-bottom: 20px;
+}
+
+.noticias-mini h1{
+  font-size: 20px;
+}
+
+.noticias-right a{
+  margin-top: 5px;
+  float: right;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.noticias-right img{
+  max-height: 250px;
+  width: 525px;
+}
+
+.noticias-right figcaption{
+  margin-bottom: 22px;
+}
+
+.conteudo-home {
+  margin-top: 20px;
+}
+
+.banner {
+  height: 100px;
+  background-color: #fcd9d9;
+}
+
+.maisvistos{
+  margin-top: 20px;
+}
+
+.maisvistos h5 {
+  color: #eb6c5e;
+  font-size: 1.286em;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+.maisvistos a{
+  font-size: 14px;
+  color: #35485d;
+  float: left;
+  font-weight: 700;
+  border-right: 1px solid #d5d5d8;
+  border-bottom: 1px solid #d5d5d8;
+  -webkit-border-bottom-right-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+  border-bottom-right-radius: 4px;
+  width: 50%;
+  max-height: 66px;
+  overflow: hidden;
+  padding: 8px 0 8px 3px;
+  line-height: 1.3em;
+  text-decoration: none;
+}
+
+.maisvistos span {
+  color: #eb6c5e;
+  font-size: 4.8em;
+  float: left;
+  line-height: 1em;
+  margin-right: 4px;
+  font-weight: bold;
+}
+
+.links {
+  float: left;
+  margin-top: 30px;
+  color: #0369af;
+}
+
+.links .col-md-6 {
+  margin-top: -10px;
+}
+
+.links h3 {
+  color:#a1a1a5;
+  font-size: 20px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #a1a1a5;
+}
+
+.links p {
+  margin-top: -10px;
+  color:#000;
+}
+
+.links .glyphicon {
+  font-size: 20px;
+  top: 35px;
+  left: -25px;
+}
+
+.tab-pane h4 {
+  color: #0369af;
+  font-weight: 700;
+}
+
+.tab-pane a {
+  color:#0369af;
+}
+
+.publicacao {
+  float: left;
+  margin-top: 30px;
+}
+
+.publicacao h5{
+  margin: 0 0 14px;
+  color: #002e6f;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.item-publicacao {
+  border-bottom: 1px dotted #c3c3c3;
+  margin-bottom: 10px;
+  padding: 11px 0 20px;
+}
+
+.item-publicacao span {
+  background-color: #eb6c5e;
+  color: #fff;
+  display: inline;
+  margin-right: 5px;
+  padding: 3px 5px 1px;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+
+.item-publicacao .data-post {
+  font-size: .857em;
+  color: #656565;
+  padding-bottom: 6px;
+}
+
+.item-publicacao a {
+  color: #656565;
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.links-side figure {
+  margin-bottom: 30px;
+}
+
+
+@media (min-width: 1200px){
+.maisvistos a {
+    width: 18%;
+    margin-right: 18px;
+}
+}
+
+@media (min-width: 992px){
+.maisvistos a {
+    font-size: 14px;
+    width: 19%;
+    margin-right: 7px;
     padding: 0;
 }
-
-.white-menu li {
-    height: 42px;
-    line-height: 42px;
-    margin-right: -2px;
-    margin-top: 0;
-}
-
-.white-menu a {
-  font-size: 14px;
-  font-weight: 900;
-  display: initial !important;
-}
-
-.white-menu li a:visited {
-    text-decoration: none;
-    color: #FFFFFF !important;
-    font-weight: 900;
-    letter-spacing: 1px;
-}
-
-.white-menu li a:link {
-    color: #FFFFFF !important;
-    text-decoration: none;
-}
-
-.white-menu li a:hover{
-    background-color: transparent;
-}
-
-.white-menu .color1 {
-    border-top: 3px solid #6fbeea;
-}
-
-.white-menu .color2 {
-    border-top: 3px solid #fbad18;
-}
-
-.white-menu .color3 {
-    border-top: 3px solid #638f3e;
-}
-
-.white-menu .color4 {
-    border-top: 3px solid #d74b27;
-}
-
-.white-menu .color5 {
-    border-top: 3px solid #000;
-}
-
-.buscar {
-  margin-right: 21px;
-  margin-top: 10px;
-  width: 280px;
-}
-
-.right-notice {
-  height: 269px;
-  margin-top: 24px;
-  border: 1px solid #E5E5E7;
-  background: #F8F8F8;
-  color: #666;
-  padding: 5px 10px;
-  border-radius: 4px;
-  box-shadow: inset 0px 0px 10px #eee;
-  text-shadow: 0 1px 0 #fff;
-  line-height: normal;
-}
-
-.right-notice span {
-  display: inline-block;
-  width: auto;
-  color: #FFFFFF!important;
-  text-transform: uppercase;
-  padding: 5px;
-  left: 10px;
-  height: auto;
-  border: 2px solid #A1C6E0;
-  background: #496DB7;
-  -webkit-border-radius: 2px;
-  font-size: 10px!important;
-  margin: 3px 0 13px 0!important;
-}
-
-.right-notice li{
-  list-style:none;
-  margin-bottom: 5px;
-}
-
-.carousel-inner {
-  margin-top: 25px;
-  max-height: 268px;
-}
-
-.todas-noticias {
-  position: absolute;
-  bottom: 10px;
-  right: 24px;
-  float: right;
-  font-size: 10px;
-  margin-top: 5px;
-  font-weight: bold;
-}
-
-.servicos-cidadao {
-  background: #f8f8f8;
-  float: left;
-  margin-top: 7px;
-}
-
-.title-services {
-  background: #4c76ba;
-  height: 46px;
-  margin-bottom: 17px;
-}
-
-.title-services h3 {
-  text-align: center;
-  color: white;
-  padding-top: 10px;
-  font-weight: bold;
-  margin-top: 0;
-}
-
-
-
-.grid-1, .grid-2 {
-    display: inline;
-    float: left;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.grid-1 {
-  width: 60px;
-}
-
-.box-servicos-img {
-    height: 72px;
-    margin: 10px 0;
-}
-
-.grid-2 {
-  width: 140px;
-}
-
-.box-servicos {
-    height: 79px;
-    margin: 10px 0;
-}
-
-.box-servicos h1 {
-    font-size: 12px;
-    display: inline;
-    margin: 5px 0;
-    color: #575c96;
-    font-weight: bold;
-    font-size: 15px;
-    text-transform: uppercase;
-}
-
-.box-servicos ul {
-    padding: 0px 0px;
-    margin: 4px 0px 0px 15px;
-}
-
-.box-servicos li {
-    line-height: 135%;
-    color: gray;
-    font-size: 9pt;
-    text-transform: lowercase;
-}
-
-.list-servicos {
-    width: 122px;
-    font-size: 9pt;
-    color: gray;
-    font-weight: bold;
-    height: 18px;
-    margin-top: 5px;
-    text-transform: lowercase;
-}
-
-.banners {
-  max-width: 220px;
-  margin-top: 7px;
-}
-
-.banners img {
-  margin-bottom: 7px;
 }
