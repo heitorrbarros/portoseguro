@@ -6,27 +6,9 @@ Author URI:
 Description: Este é o tema do portal de notícias
 Version: 1.0
 */
+
 body{
   margin: 0;
-  font-family: Arial;
-  font-size: 12px;
-}
-
-a:link, a:visited {
-	color: gray;
-	text-decoration: none;
-}
-
-a:hover {
-	color: #5B83CB;
-	text-decoration: none;
-}
-
-ul{
-  color: gray;
-  font-size: 9pt;
-  list-style-type: none;
-  padding-left: 0;
 }
 
 .row {
@@ -42,296 +24,89 @@ ul{
 }
 
 .logo {
-    background-color: #34558c;
-    height: 100px;
+  max-width: 300px;
 }
 
-.social-banner {
-    background: transparent url(assets/images/header-section2-bg.png) left top repeat-x;
-    height: 129px;
-}
-
-.social-banner .img-banner {
-  padding-top: 20px;
-}
-
-.social-banner .sociallinks {
-  margin-top: 25px;
-  margin-left: 130px;
-}
-
-.img-logo {
-  max-height: 90px;
-  float: left;
-}
-
-.img-banner {
-  max-width: 712px;
-  max-height: 100px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.header {
-    background: transparent url(assets/images/header-section3-bg1.png) left top repeat-x;
-    height: 50px;
-}
-
-.area-interesse {
-    width: 178px;
-    margin-right: 15px;
-    float: left;
-    margin-top: 10px;
-    height: 25px;
-    font-size: 14px;
-    color: #FFFFFF;
-    background-color: #4d76bd;
-    font-weight: bold;
-    border-color: #32548d;
-    text-transform: uppercase;
-    margin-left: 100px;
-}
-
-.orgaos-municipais {
-    width: 91px;
-    margin-right: 15px;
-    float: left;
-    margin-top: 10px;
-    height: 25px;
-    font-size: 14px;
-    color: #FFFFFF;
-    background-color: #4d76bd;
-    font-weight: bold;
-    border-color: #32548d;
-}
-
-.white-menu {
-  list-style: none;
-    text-transform: uppercase;
-    float: left;
-    padding: 0;
-}
-
-.white-menu li {
-    height: 42px;
-    line-height: 42px;
-    margin-right: -2px;
-    margin-top: 0;
-}
-
-.white-menu a {
-  font-size: 14px;
-  font-weight: 900;
-  display: initial !important;
-}
-
-.white-menu li a:visited {
-    text-decoration: none;
-    color: #FFFFFF !important;
-    font-weight: 900;
-    letter-spacing: 1px;
-}
-
-.white-menu li a:link {
-    color: #FFFFFF !important;
-    text-decoration: none;
-}
-
-.white-menu li a:hover{
-    background-color: transparent;
-}
-
-.white-menu .color1 {
-    border-top: 3px solid #6fbeea;
-}
-
-.white-menu .color2 {
-    border-top: 3px solid #fbad18;
-}
-
-.white-menu .color3 {
-    border-top: 3px solid #638f3e;
-}
-
-.white-menu .color4 {
-    border-top: 3px solid #d74b27;
-}
-
-.white-menu .color5 {
-    border-top: 3px solid #000;
-}
-
-.buscar {
-  margin-right: 21px;
-  margin-top: 10px;
-  width: 280px;
-}
-
-.right-notice {
-  height: 269px;
-  margin-top: 24px;
-  border: 1px solid #E5E5E7;
-  background: #F8F8F8;
-  color: #666;
-  padding: 5px 10px;
-  border-radius: 4px;
-  box-shadow: inset 0px 0px 10px #eee;
-  text-shadow: 0 1px 0 #fff;
-  line-height: normal;
-}
-
-.right-notice span {
-  display: inline-block;
-  width: auto;
-  color: #FFFFFF!important;
-  text-transform: uppercase;
-  padding: 5px;
-  left: 10px;
-  height: auto;
-  border: 2px solid #A1C6E0;
-  background: #496DB7;
-  -webkit-border-radius: 2px;
-  font-size: 10px!important;
-  margin: 3px 0 13px 0!important;
-}
-
-.right-notice li{
-  list-style:none;
-  margin-bottom: 5px;
-}
-
-.carousel-inner {
-  margin-top: 25px;
-  max-height: 268px;
-}
-
-.todas-noticias {
-  position: absolute;
-  bottom: 10px;
-  right: 24px;
+.pesquisar {
   float: right;
-  font-size: 10px;
-  margin-top: 5px;
-  font-weight: bold;
+  max-width: 360px;
+  margin-top: 38px;
 }
 
-.servicos-cidadao {
-  background: #f8f8f8;
-  margin-top: 7px;
+.input-group .form-control:first-child {
+  background-color: #ecefef;
+  border-color: #5cd9e8;
 }
 
-.title-services {
-  background: #4c76ba;
-  height: 46px;
+.input-group-btn:last-child>.btn {
+  background-color: #ecefef;
+  color: #194e9f;
+  border-color: #5cd9e8;
 }
 
-.title-services h3 {
-  text-align: center;
-  color: white;
-  padding-top: 10px;
-  font-weight: bold;
-  margin-top: 0;
+.navbar-default {
+  background-color: #ecefef;
 }
 
-.links {
-  margin-top: 10px;
-  background-color: #FCFDFF;
-  height: 100px;
-  padding-top: 23px;
+.navbar-default .navbar-nav>li>a {
+  color: #194e9f;
+  font-size: 15px;
 }
 
-.links span {
-  position: relative;
-  top:-17px;
-  left:5px;
-  font-weight: bolder;
-  text-transform: uppercase;
-  font-size: 17px;
-}
-
-.links:hover{
-  color: #FFF;
-  background-color: #0093DD;
-}
-
-.banners {
-  max-width: 220px;
-  margin-top: 7px;
-}
-
-.banners img {
-  margin-bottom: 7px;
-}
-
-.rodapetop {
-  background-color: #4D76BD;
-  height: 160px;
-  padding-top: 30px;
-}
-
-.rodapetop a {
-  text-decoration: none;
-  color: #FFFFFF;
-  font-weight: 900;
-  letter-spacing: 1px;
-  font-size: 16px;
-}
-
-.rodapenoticias {
-  padding-top: 15px;
-  padding-left: 90px;
-}
-
-.sociallinks {
-float: left;
-}
-
-.sociallinks span{
-  float: left;
-  margin-bottom: 5px;
-  color: #FFFFFF;
-  text-transform: uppercase;
-  font-weight: 900;
-  letter-spacing: 1px;
-  font-size: 14px;
-}
-
-.sociallinks img {
-  margin-right: 1px;
-}
-
-.diario h1{
-  font-size: 16px;
-  color: #fff;
-  margin: 0;
-}
-
-.diario p {
-  font-size: 12px;
-  color: #fff;
-  margin: 3px 0;
-}
-
-.botao button {
-  color: #fff;
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #194e9f;
   background-color: transparent;
-  border: 1px solid #fff;
-  border-radius: 2px;
 }
 
-.rodapebot {
-  background-color: #325187;
-  height: 50px;
-  padding-top: 4px;
+.noticias-container img {
+  border-radius: 10px;
 }
 
-.borda {
-  width: 50px;
-  border-top: 2px solid #00ffc4;
-}
-
-.copyright span {
-  font-size: 14px;
-  font-weight: 900;
+.noticias-container figcaption {
+  position: absolute;;
+  bottom: 10px;
+  left: 15px;
   color: #fff;
+}
+
+.noticias-container figcaption>p {
+  border-left: solid 4px #ffea00;
+  padding-left: 5px;
+}
+
+.noticias-left {
+  margin-bottom: 20px;
+}
+
+.noticias-left img{
+  height: 440px;
+}
+
+.noticias-left figcaption {
+  margin-left: 15px;
+}
+
+.noticias-mini {
+padding-left: 0;
+margin-bottom: 20px;
+}
+
+.noticias-mini h1{
+  font-size: 20px;
+}
+
+.noticias-right a{
+  margin-top: 5px;
+  float: right;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.noticias-right img{
+  max-height: 250px;
+  width: 525px;
+}
+
+.noticias-right figcaption{
+  margin-bottom: 22px;
 }

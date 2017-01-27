@@ -25,83 +25,52 @@
 
 <body>
 
-  <!-- HEADER -->
-    <!-- <div class="mainNav"> -->
+        <!-- LOGO E PESQUISA -->
+    <header>
+        <div class="container">
+            <div class="col-md-6 logo">
+                <a href="#">
+                  <img src="<?=$home?>/assets/images/logo_pme.png" class="img-responsive" alt="Logo Eunápolis" />
+                </a>
+            </div>
+            <div class="col-md-6 pesquisar">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Digite sua busca">
+                <span class="input-group-btn">
+                  <button class="btn btn-default" type="button">Pesquisar</button>
+                </span>
+              </div>
+            </div>
+          </div>
+    </header>
 
-                  <!-- LOGO -->
-                  <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-12">
-                              <div class="logo">
-                                  <a href="#"><img class="img-responsive img-logo" src="<?= $home ?>/assets/images/logo_pme.png" alt="" /></a>
-                            </div>
-                        </div>
-                    </div>
-                  </div>
+      <!-- MENU -->
 
-                    <!-- BANNER -->
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-12">
-                              <div class="social-banner">
-                                <div class="col-md-3">
-                                  <div class="sociallinks">
-                                  <span>Siga a Prefeitura:</span>
-                                  <div>
-                                    <a href="#"><img src="<?=$home?>/assets/images/facebook-icon.png" alt="" /></a>
-                                    <a href="#"><img src="<?=$home?>/assets/images/youtube-icon.png" alt="" /></a>
-                                    <a href="#"><img src="<?=$home?>/assets/images/flickr-icon.png" alt="" /></a>
-                                    <a href="#"><img src="<?=$home?>/assets/images/twitter-icon.png" alt="" /></a>
-                                </div>
-                                </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <a href="#"><img class="img-responsive img-banner" src="<?= $home ?>/assets/images/banner-top.jpg" alt="" /></a>
-                                </div>
-                              </div>
-                            </div>
-                        </div>
-                    </div>
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
 
-                    <!-- COLOCAR COLUNA PARA ESQUERDA E PARA DIREITA -->
-                    <!-- NAVBAR -->
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-12 header">
-                              <!-- USAR O DROPDOWN DO BOOTSTRAP -->
-                                  <!-- DROPDOWN -->
-                                  <div class="col-md-6">
-                                      <select class="area-interesse" name="">
-                                      <option value="0">Serviços</option>
-                                      <option value="1">Comunicação</option>
-                                      <option value="2">Criança e Adolescente</option>
-                                      <option value="3">Cultura</option>
-                                      <option value="4">Defesa Civil</option>
-                                      <option value="6">Educação</option>
-                                      <option value="7">Finanças e Tributos</option>
-                                      <option value="8">Gestão Pública</option>
-                                      <option value="9">Infraestrutura</option>
-                                    </select>
-                                    <select class="orgaos-municipais" name="">
-                                      <option value="0">ÓRGÃOS</option>
-                                      <option style="background: #34558c; text-decoration:underline;">SECRETARIAS</option>
-                                      <option value="1">&nbsp;&nbsp;&nbsp;&nbsp;SECOM - Comunicação</option>
-                                      <option value="2">&nbsp;&nbsp;&nbsp;&nbsp;CASA CIVIL</option>
-                                      <option value="30">&nbsp;&nbsp;&nbsp;&nbsp;DEFESA CIVIL</option>
-                                    </select>
-                                  </div>
-
-                                  <!-- MENU -->
-                                  <div class="col-md-6">
-                                    <ul class="white-menu nav nav-pills">
-                                      <li class="color1"><a href="#">A Prefeitura</a></li>
-                                      <li class="color2"><a href="#">A Cidade</a></li>
-                                      <li class="color3"><a href="#">Turista</a></li>
-                                      <li class="color4"><a href="#">Notícias</a></li>
-                                      <li class="color5"><a href="#">Ouvidoria</a></li>
-                                    </ul>
-                                  </div>
-                            </div>
-                        </div>
-                    </div>
-    <!-- </div> -->
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <!-- <li class="active"><a href="#">DIÁRIO OFICIAL <span class="sr-only">(current)</span></a></li> -->
+              <li><a href="#">DIÁRIO OFICIAL</a></li>
+              <li><a href="#">CIDADÃO</a></li>
+              <li><a href="#">EMPRESA</a></li>
+              <li><a href="#">SERVIDOR</a></li>
+              <li><a href="#">NOTÍCIAS</a></li>
+              <li><a href="#">TRANSPARÊNCIA</a></li>
+              <li><a href="#">SECRETARIAS</a></li>
+              <li><a href="#">OUVIDORIA</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container -->
+      </nav>
